@@ -4,7 +4,7 @@ import pymupdf
 from collections import Counter
 
 
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = "."
 INPUT_DIR = os.path.join(ROOT_DIR, "input")
 OUTPUT_DIR = os.path.join(ROOT_DIR, "output")
 
